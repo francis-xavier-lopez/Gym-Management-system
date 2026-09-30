@@ -2,4 +2,5 @@ from django.shortcuts import render,HttpResponse
 
 # Create your views here.
 def display(request):
-    return HttpResponse("Hello World")
+    return HttpResponse("Hello World how are you?")
+
